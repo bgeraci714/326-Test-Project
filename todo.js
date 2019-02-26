@@ -11,23 +11,13 @@ function addNewListItem()
     li.appendChild(newN);
 
     list.appendChild(li);
-    //console.log("Child appended successfully?")
+
 }
 
 function printTesting()
 {
     console.log("Test");
 }
-
-// let todoList = [];
-
-// const todoListAdd = (toAdd) => {
-//     todoList.push(toAdd);
-// }
-
-// addEventListener(onmousedown,MouseEvent){
-//     print("this is a test")
-// }
 
 
 
