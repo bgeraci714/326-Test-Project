@@ -1,7 +1,19 @@
 const btn = document.getElementById('button');
 const textbox = document.getElementById('textbox');
 const list = document.getElementById('list')
-btn.addEventListener('click',printTesting);
+btn.addEventListener('click',addNewListItem);
+
+
+function addNewListItem()
+{
+    let li = document.createElement("LI");
+    let newN = document.createTextNode(textbox.value);
+    li.appendChild(newN);
+
+    list.appendChild(li);
+    //console.log("Child appended successfully?")
+}
+
 function printTesting()
 {
     console.log("Test");
