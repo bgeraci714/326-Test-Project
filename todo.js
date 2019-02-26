@@ -1,6 +1,11 @@
 const btn = document.getElementById('button');
 const textbox = document.getElementById('textbox');
 const list = document.getElementById('list')
+btn.addEventListener('click',printTesting);
+function printTesting()
+{
+    console.log("Test");
+}
 
 // let todoList = [];
 
